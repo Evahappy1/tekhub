@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+.project {
+    background-color: white;
+    color: navy;
+    text-decoration: none;
+    border: 8px solid navy;
+    border-radius: 2rem 0;
+    font-size: 2rem;
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    font-weight: bolder;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.project:hover {
+    background-color: navy;
+    color: white;
+    transform: scale(1.05);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.todo-header {
+    gap: 1rem
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.todo-header input {
+    width: 32%
 }
 
-.App-link {
-  color: #61dafb;
+.todo-header button {
+    width: 25%;
+}
+body{
+    
+    font-family: montserrat;
+}
+.navbar{
+    background-color: black;
+}
+.carousel-item img{
+    height: 35rem;
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .services{
+        background-image: url('https://media.istockphoto.com/id/1400278668/photo/taxi-phone-app-for-cab-or-car-ride-share-service-customer-waiting-driver-to-pick-up-on-city.jpg?s=612x612&w=0&k=20&c=LDhBgDcje6PzjosfmMdKJN18LEoYnSN0c_pmky_XGnU=');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 40rem;
+        background-size: cover;
+        padding: 15rem;
+        padding-top:20rem;
+        
+        
+     }
+    .service{
+         text-shadow: 1px ipx 1px black
+    }
+    .card-img-top{
+        height: 13rem;
+    }
+    .card{
+        margin: 1rem;
+    }
+    .registration-form{
+     width: 450px;
+     margin: 5rem auto ;
+    }
+.Movie-website{
+    padding:20rem;
+    color:red;
+    text-align: center;
+    background-color: black;
+    border-radius: 5rem;
+border-color: black;
+border-width: 2rem;
+}
+
+
+@media(max-width: 768px) {
+    .todo-header {
+        flex-direction: column
+    }
+
+    .todo-header input {
+        width: 100%;
+    }
+
+    .todo-header button {
+        width: 25%;
+    }
 }

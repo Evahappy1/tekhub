@@ -1,0 +1,9 @@
+Create a ToDo list
+create useState to store the task to be added and the array of tasks. 
+Add an OnChange event to the input.
+Add an onClick to the button
+Write a function to handle the button click event.
+Add each task t the array of tasks after the button is clicked
+Map through the task and display them on the browser
+check if the input is empty (i.e) if theres a new item
+API- Application Programming Interface ==> any software intermediary that allows two applications to communicate with each other.
