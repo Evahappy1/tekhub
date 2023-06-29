@@ -51,7 +51,7 @@ export default function FakeStore() {
             <h5 className="card-title">{x.title}</h5>
             <h5 className="card-title"><i className="fa fa-star text-warning"></i> {x.rating.rate} ({x.rating.count})</h5>
             <p className="card-text">{x.description}</p>
-            <a href="#" className="btn btn-success">${x.price}</a>
+            <Link to="#" className="btn btn-success">${x.price}</Link>
           </div>
         </div>})}
       </section>

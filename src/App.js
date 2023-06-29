@@ -10,11 +10,11 @@ import FakeStore from './pages/FakeStore';
 
 function App() {
   return<BrowserRouter>
-  <a href="/" className='btn btn-primary m-3'>Home</a>
-  <a href="/todo-app" className='btn btn-primary m-3'>Todo App</a>
-  <a href="/expense-tracker" className='btn btn-primary m-3'>Expense Tracker</a>
-  <a href="/fake-store" className='btn btn-primary m-3'>Fake Store</a>
-  <a href="/movie-website" className='btn btn-primary m-3'>Movie Website</a>
+  <Link to="/" className='btn btn-primary m-3'>Home</Link>
+  <Link to="/todo-app" className='btn btn-primary m-3'>Todo App</Link>
+  <Link to="/expense-tracker" className='btn btn-primary m-3'>Expense Tracker</Link>
+  <Link to="/fake-store" className='btn btn-primary m-3'>Fake Store</Link>
+  <Link to="/movie-website" className='btn btn-primary m-3'>Movie Website</Link>
  
   <Routes> 
  

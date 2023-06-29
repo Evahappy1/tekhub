@@ -44,7 +44,7 @@ export default function MovieWebsite() {
 
                                 <p classname="card-text">{x.Year} {x.Type}</p>
 
-                                <a href="#" classname="btn btn-danger w-100">see details</a>
+                                <Link to="#" classname="btn btn-danger w-100">see details</Link>
                             </div>
                         </div>
 

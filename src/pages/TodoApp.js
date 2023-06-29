@@ -1,6 +1,5 @@
 import { useState } from "react"
 import Swal from "sweetalert2"
-
 export default function TodoApp() {
 
     //1.create useStates to store the task to be added and the array of tasks
