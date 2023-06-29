@@ -47,8 +47,7 @@ export default function ExpenseTracker() {
         <div className="tasks">
             {/* 6. Map through the task and display them on the browser */}
 
-            {
-                items.map(x => {
+            {items.map(x => {
                     return <div key={x.id} className="bg-light text-Primary border border-Primary fs-5 d-flex justify-content-between m-3 p-5 rounded">
                         {x.newItem} 
                         <span>{x.price && x.price.localestring}</span>
